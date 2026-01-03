@@ -12,7 +12,7 @@ body{
     color: purple;
     font-family: monospace;
     font-size: 10rem;
-    border: 5px solid purple;
+    border: 1rem solid purple;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
     margin-inline: auto;
@@ -24,9 +24,12 @@ body{
 @keyframes typing{
     from{
         width: 0;
+        
     }
     to{
-        width: 100%
+        width: 100%;
+      
+        
     }
 }
 
@@ -68,19 +71,30 @@ body{
 .Email {
     display: flex;
     justify-content: center;
+   
 }
 .Email h2 {
-        color: purple;
+     
+    color: #181818;
     font-family: monospace;
     font-size: 2rem;
-    border-right: 5px solid transparent;
+    border: 0.2rem solid transparent;
     margin-inline: auto;
     overflow: hidden;
     white-space: nowrap;
     width: 0px;
-    animation: typing 1s steps(8) forwards;
+    animation: typing 1s steps(8) forwards, appearing 1s forwards;
      animation-delay: 9s;
 }
+@keyframes appearing {
+    from {
+        background-color: purple;
+    }
+    to {
+        background-color: purple;
+    }
+}
+
 
 .Description{
     display: flex;
