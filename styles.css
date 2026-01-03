@@ -1,0 +1,102 @@
+body{
+    background-color: #181818 ;
+}
+
+.Title{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Title h1 {
+    color: purple;
+    font-family: monospace;
+    font-size: 10rem;
+    border: 5px solid purple;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-inline: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 1s steps(10) forwards;
+    
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%
+    }
+}
+
+
+.SubTitle1 {
+    display: flex;
+    justify-content: center;
+}
+.SubTitle1 h1 {
+        color: purple;
+    font-family: monospace;
+    font-size: 2rem;
+    border-right: 5px solid transparent;
+    margin-inline: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0px;
+    animation: typing 2s steps(37) forwards;
+     animation-delay: 3s;
+   
+}
+.SubTitle2 {
+    display: flex;
+    justify-content: center;
+}
+.SubTitle2 h1 {
+        color: purple;
+    font-family: monospace;
+    font-size: 2rem;
+    border-right: 5px solid transparent;
+    margin-inline: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0px;
+    animation: typing 2s steps(33) forwards;
+     animation-delay: 6s;
+   
+}
+.Email {
+    display: flex;
+    justify-content: center;
+}
+.Email h2 {
+        color: purple;
+    font-family: monospace;
+    font-size: 2rem;
+    border-right: 5px solid transparent;
+    margin-inline: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0px;
+    animation: typing 1s steps(8) forwards;
+     animation-delay: 9s;
+}
+
+.Description{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Description h3{
+        color: purple;
+    font-family: monospace;
+    font-size: 2rem;
+    border-right: 5px solid transparent;
+    margin-inline: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0px;
+    animation: typing 2s steps(48) forwards;
+
+}
