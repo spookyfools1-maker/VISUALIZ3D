@@ -13,8 +13,8 @@ body{
     font-family: monospace;
     font-size: 10rem;
     border: 5px solid purple;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
     margin-inline: auto;
     overflow: hidden;
     white-space: nowrap;
@@ -98,5 +98,6 @@ body{
     white-space: nowrap;
     width: 0px;
     animation: typing 2s steps(48) forwards;
+
 
 }
