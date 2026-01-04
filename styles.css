@@ -119,7 +119,7 @@ body{
     .Title h1 {
     color: purple;
     font-family: monospace;
-    font-size: 6.5em;
+    font-size: 4.5em;
     border: 0.1em solid purple;
     border-top-right-radius: 0.8em;
     border-bottom-left-radius: 0.8em;
@@ -132,7 +132,7 @@ body{
 .Description h3{
         color: purple;
     font-family: monospace;
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     border-right: 5px solid transparent;
     margin-inline: auto;
     overflow: hidden;
@@ -143,7 +143,7 @@ body{
 .SubTitle1 h1 {
         color: purple;
     font-family: monospace;
-    font-size: 1.3rem;
+    font-size: 1rem;
     border-right: 5px solid transparent;
     margin-inline: auto;
     overflow: hidden;
@@ -151,6 +151,19 @@ body{
     width: 0px;
     animation: typing 2s steps(37) forwards;
      animation-delay: 3s;
+   
+}
+.SubTitle2 h1 {
+        color: purple;
+    font-family: monospace;
+    font-size: 1em;
+    border-right: 5px solid transparent;
+    margin-inline: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0px;
+    animation: typing 2s steps(33) forwards;
+     animation-delay: 6s;
    
 }
 
